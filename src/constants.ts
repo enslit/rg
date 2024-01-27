@@ -1,0 +1,1 @@
+export const TELEGRAM_BOT_TOKEN = '6891534206:AAFnWG-zsB1Lc-aqpiL9FQZ3dNdrWkGhjzA';

@@ -1,0 +1,23 @@
+{
+  "name": "rusguard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:mssql": "node --trace-deprecation ./server/mssql.js",
+    "start:tedious": "node --trace-deprecation ./server/tedious.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.10",
+    "mssql": "^9.1.1",
+    "telegraf": "^4.12.2"
+  },
+  "devDependencies": {
+    "@types/mssql": "^9.1.4",
+    "@types/node": "^20.4.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  }
+}
