@@ -5,7 +5,7 @@ import { selectEmployee } from "./query-templates/select-employee";
 import { selectEmployeeLogs } from "./query-templates/select-logs";
 import { LogByDate, clearLogs } from "../utils/clearLogs";
 
-interface IDbService {
+export interface IDbService {
   getEmployee: (args: { id: string }) => Promise<Employee>; 
   getEmployeeLogsByDate: (args: { employeeId: string; start: Dayjs; end: Dayjs }) => Promise<LogByDate[]>;
 }
